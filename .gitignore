@@ -1,0 +1,69 @@
+.run/
+server/dist
+.env*
+!.env.example
+tmp/
+
+/serve.js
+/authentication.js
+./models/
+/utils.js
+server/serve.js
+server/authentication.js
+server/models
+server/utils.js
+
+reports/
+!tests/components/reports
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+/dist
+
+# production
+/build
+
+# DataApp Build
+/mocks/build
+
+# misc
+.DS_Store
+
+resources/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pact.log
+
+.idea
+
+pacts
+stage-manager-staging-consumer-layer.json
+
+public/test_runs
+
+test-report.xml
+
+/models/embedReportConfig.js
+/models/embedConfig.js
+/serve.js
+
+.kube/
+.secrets*
+
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+wget-log
